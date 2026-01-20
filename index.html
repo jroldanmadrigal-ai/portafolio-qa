@@ -63,19 +63,27 @@
       color: var(--accent);
     }
 
-    .projects a {
+    .projects-item a {
       display: block;
-      padding: 10px;
-      background: var(--accent);
-      color: white;
-      margin: 8px 0;
+     /* padding: 8px;
+        background: var(--accent); */
+      color: #1e88e5;
+      margin-top: 8px; /* 0; */
       text-decoration: none;
-      border-radius: 8px;
-      transition: transform 0.2s;
+     /* border-radius: 8px; */
+     /* transition: transform 0.2s;*/
+      font-weight: 500;
     }
 
-    .projects a:hover {
-      transform: scale(1.03);
+   /* .projects a:hover {
+      transform: scale(1.03); */
+     .projects-item a:first-child {
+       font-size: 18px;
+       color: #fff;
+       background: #1e88e5;
+       padding: 10px;
+       border-radius: 8px;
+       display: block;
     }
 
     .toggle-btn {
